@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+  <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet">
+  <link rel="stylesheet" href="estilos/style.css">
+  <link rel="stylesheet" href="estilos/media-query.css">
+</head>
+<body>
+  <main>
+    <section id="login">
+      <form action="" method="post" autocomplete="on">
+        <h1>Login</h1>
+        
+        <div class="campo">
+          <input type="email" name="email" id="iemail" required autocomplete="email" maxlength="30" placeholder="Email ID">
+          <i class="ri-mail-fill"></i>
+        </div>
+        
+        <div class="campo">
+          <input type="password" name="senha" id="isenha" required minlength="8" maxlength="30" placeholder="Password">
+          <i class="ri-lock-fill"></i>
+        </div>
+        
+        <div id="check">
+          <div id="checkbox">
+            <input type="checkbox" name="lembre" id="ilembre">
+            <label for="ilembre">Lembrar-me</label>
+          </div>
+
+          <a href="#">Esqueceu a senha?</a>
+        </div>
+        
+        <input type="submit" value="Login">
+      </form>
+      
+      <div id="social">
+        <p>ou</p>
+        <ul>
+          <li><a href="https://www.google.com/" target="_blank"><img src="images/ico-google.svg" alt="icone google"></a></li>
+          <li><a href="https://www.facebook.com/" target="_blank"><img src="images/ico-fb.svg" alt="icone facebook"></a></li>
+          <li><a href="https://twitter.com/" target="_blank"><img src="images/ico-x.svg" alt="icone twitter"></a></li>
+        </ul>
+      </div>
+      
+      <div class="singup">
+        <p>Não tem conta?<a href="#">Criar conta</a></p>
+      </div>
+    </section>
+    
+    <div class="name">
+      by. pedro.s
+    </div>
+  </main>
+</body>
+</html>
