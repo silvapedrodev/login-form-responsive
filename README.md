@@ -15,16 +15,14 @@
 - **Glass Effect:** Incorporates a modern and stylish glass effect.
 - **Responsive Design:** Developed following the Mobile First methodology to ensure optimal display on mobile devices and desktops alike.
 
-
  <br>
 
 # 💻 Layout Desktop | 📱 Layout mobile
-[![preview]()]()
+[![preview](https://github.com/silvapedrodev/login-form-responsive/blob/main/preview.png?raw=true)](https://silvapedrodev.github.io/login-form-responsive/)
 
-- <a href="" target="_blank">**Click Here** &#x1F517;</a>
+- <a href="https://silvapedrodev.github.io/login-form-responsive/" target="_blank">**Click Here** &#x1F517;</a>
 
 <br>
-
 
 ## 👨‍💻 Author
 This project was developed by Pedro.S.
